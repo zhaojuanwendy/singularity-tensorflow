@@ -1,6 +1,6 @@
 
 BootStrap:docker
-From:tensorflow/tensorflow:1.3.0-gpu
+From:tensorflow/tensorflow:1.0.1-gpu
 
 %runscript
   exec cat /etc/issue
