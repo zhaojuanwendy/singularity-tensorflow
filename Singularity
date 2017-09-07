@@ -1,4 +1,3 @@
-
 BootStrap:docker
 From:tensorflow/tensorflow:latest-gpu
 
