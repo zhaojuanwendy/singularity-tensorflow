@@ -1,2 +1,2 @@
-# singularity-tensorflow-1.0.1-gpu
-Store singularity bootstrap files for tensorflow 1.0.1
+# singularity-tensorflow
+Store singularity bootstrap files for tensorflow with accre mount points included.
