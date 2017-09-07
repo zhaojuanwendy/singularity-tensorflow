@@ -3,7 +3,7 @@ BootStrap:docker
 From:tensorflow/tensorflow:1.3.0-gpu
 
 %runscript
-  exec python "$@" 
+  exec cat /etc/issue
 
 %post
   # Enables access to ACCRE storage
