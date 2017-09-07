@@ -10,4 +10,4 @@ From:tensorflow/tensorflow:1.3.0-gpu
   mkdir /scratch /data /gpfs22 /gpfs23 /dors
 
 %test
-python -c "import tensorflow"
+  python -V
