@@ -9,11 +9,17 @@ From:tensorflow/tensorflow:1.3.0-gpu
   # Enables access to ACCRE storage
   mkdir /scratch /data /gpfs22 /gpfs23 /dors
 
-   add-apt-repository ppa:jonathonf/ffmpeg-3
-     
-   apt update && apt install -y ffmpeg libav-tools x264 x265
-         
-   pip install \
+  add-apt-repository ppa:jonathonf/ffmpeg-3
+    
+  apt update && \
+    apt install -y \
+      ffmpeg \
+      libav-tools \
+      x264 \
+      x265 \
+      python-tk
+        
+  pip install \
     librosa==0.5.1 \
     pandas==0.20.3 \
     scikit-learn==0.18.1 \
