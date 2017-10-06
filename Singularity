@@ -17,13 +17,20 @@ From:tensorflow/tensorflow:1.3.0-gpu
       libav-tools \
       x264 \
       x265 \
+      python3 \
       python-tk
         
-  pip install \
-    librosa==0.5.1 \
-    pandas==0.20.3 \
-    scikit-learn==0.18.1 \
-    seaborn==0.8.1
+  pip install --upgrade \
+    librosa \
+    pandas \
+    scikit-learn \
+    seaborn \
+    matplotlib \
+    scipy \
+    numpy \
+    jupyter \
+    keras
+    
 
 %test
   python -V
